@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Map | Alberto Clocks</title>
+  <meta name="description" content="View all main pages and sections of the Alberto Clocks website.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://aptechabdulhadi-cmyk.github.io/E-project-final-13/sitemap.html">
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <style>
+    :root {
+      --wine: #27060b;
+      --wine-light: #650f1d;
+      --gold: #d8b66a;
+      --cream: #f8f4eb;
+      --text: #24201d;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      background: var(--cream);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      min-height: 72px;
+      padding: 12px clamp(20px, 5vw, 70px);
+      background: rgba(39, 6, 11, 0.96);
+      box-shadow: 0 4px 18px rgba(39, 6, 11, 0.2);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      letter-spacing: 0.04em;
+    }
+
+    .brand img {
+      width: 64px;
+      height: 40px;
+      object-fit: contain;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .nav-links a {
+      color: var(--gold);
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 0.9rem;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible { color: #fff; }
+
+    main {
+      width: min(1100px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 70px 0;
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: #8a6a32;
+      font-family: Arial, sans-serif;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 15px;
+      color: var(--wine);
+      font-size: clamp(2.5rem, 7vw, 5rem);
+      font-weight: 400;
+    }
+
+    .intro {
+      max-width: 650px;
+      margin: 0 0 38px;
+      color: #665f58;
+      line-height: 1.7;
+    }
+
+    .sitemap-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .sitemap-card {
+      min-height: 170px;
+      padding: 26px;
+      border: 1px solid rgba(216, 182, 106, 0.55);
+      border-radius: 18px;
+      background: #fff;
+      box-shadow: 0 12px 35px rgba(39, 6, 11, 0.08);
+    }
+
+    .sitemap-card h2 {
+      margin: 0 0 16px;
+      color: var(--wine-light);
+      font-size: 1.35rem;
+    }
+
+    .sitemap-card a {
+      display: block;
+      width: fit-content;
+      margin: 8px 0;
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .sitemap-card a:hover,
+    .sitemap-card a:focus-visible {
+      color: var(--wine-light);
+      border-bottom-color: var(--wine-light);
+    }
+
+    footer {
+      padding: 22px;
+      background: var(--wine);
+      color: #d9d0ca;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 700px) {
+      .navbar { align-items: flex-start; flex-direction: column; }
+      .nav-links { gap: 12px 16px; }
+      main { width: min(100% - 32px, 1100px); padding: 45px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="index.html" aria-label="Alberto Clocks homepage">
+      <img src="logo.png" alt="" width="64" height="40">
+      <span>Alberto Clock's</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="collections.html">Collections</a>
+      <a href="login.html">Sign In</a>
+      <a href="sitemap.html" aria-current="page">Site Map</a>
+    </nav>
+  </header>
+
+  <main>
+    <p class="eyebrow">Alberto Clocks</p>
+    <h1>Site Map</h1>
+    <p class="intro">Browse the main pages and sections available on the Alberto Clocks website.</p>
+
+    <div class="sitemap-grid">
+      <section class="sitemap-card">
+        <h2>Main Pages</h2>
+        <a href="index.html">Home</a>
+        <a href="collections.html">Watch Collections</a>
+        <a href="login.html">Sign In</a>
+        <a href="sitemap.html">Site Map</a>
+      </section>
+
+      <section class="sitemap-card">
+        <h2>Homepage Sections</h2>
+        <a href="index.html#gall">Gallery</a>
+        <a href="index.html#abot">About Us</a>
+        <a href="index.html#contat">Contact Us</a>
+      </section>
+
+      <section class="sitemap-card">
+        <h2>Watch Collections</h2>
+        <a href="index.html#rolex">Rolex</a>
+        <a href="index.html#omega">Omega</a>
+        <a href="index.html#casio">Casio</a>
+        <a href="index.html#g-shock">G-Shock</a>
+      </section>
+
+      <section class="sitemap-card">
+        <h2>Resources</h2>
+        <a href="price%20list.pdf" target="_blank" rel="noopener">Price List</a>
+        <a href="sitemap.xml" target="_blank" rel="noopener">XML Sitemap</a>
+      </section>
+    </div>
+  </main>
+
+  <footer>&copy; 2026 Alberto Clocks. All rights reserved.</footer>
+</body>
+</html>
